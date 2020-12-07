@@ -1,0 +1,199 @@
+#btnimg {
+  width: 100px;
+}
+#btn {
+  position: fixed;
+  top: 0px;
+}
+header {
+  height: 100px;
+  border-bottom: 1px solid #777;
+  padding-top: 60px;
+  width: 100%;
+}
+#wpahr {
+  position: absolute;
+  left: 0;
+  font-size: 30px;
+}
+#menu {
+  position: absolute;
+  left: 340px;
+  text-decoration: none;
+}
+#button {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background-color: white;
+  padding: 8px 30px 8px 30px;
+  border: 1px solid rgb(243, 243, 243);
+  font-size: 15px;
+  color: rgb(148, 148, 148);
+}
+main {
+  height: 1000px;
+  background-color: white;
+  width: 100%;
+}
+#video {
+  height: 550px;
+
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+}
+
+#kk {
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+#kkk {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.in-contain {
+  margin-top: 23px;
+  position: relative;
+  right: -20px;
+}
+
+#rrbox {
+  height: 250px;
+  display: flex;
+  position: relative;
+  top: 180px;
+  justify-content: space-between;
+}
+.rr1 {
+  color: white;
+  background-color: rgb(43, 68, 167);
+  width: 346.666666667px;
+  line-height: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.rr2 {
+  color: white;
+  background-color: rgb(0, 19, 83);
+  width: 346.666666667px;
+  line-height: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.rr3 {
+  color: white;
+  background-color: rgb(43, 68, 167);
+  width: 346.666666667px;
+  line-height: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+#rrr1 {
+  background-color: green;
+}
+#rrr2 {
+  background-color: red;
+}
+#rrr3 {
+  background-color: green;
+}
+.at {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 250px;
+}
+.at1 {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.g {
+  position: relative;
+  color: rgb(136, 136, 136);
+  display: inline;
+}
+#co {
+  background-color: rgb(248, 248, 248);
+  height: 1860px;
+  width: 100%;
+}
+#ttt {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 70px;
+}
+#tt {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  font-size: 14px;
+}
+.tov {
+  height: 359px;
+  background-color: white;
+  width: 316.666666667px;
+  float: left;
+  margin: 15px;
+}
+.chstov {
+  height: 359px;
+  background-color: rgb(255, 250, 206);
+  width: 316.666666667px;
+  float: left;
+  margin: 15px;
+}
+
+.clr {
+  margin: 10px 12px 10px 12px;
+}
+.cls {
+  font-size: 13px;
+  color: rgb(152, 152, 152);
+  line-height: 20px;
+  margin-top: 10px;
+}
+.ls {
+  color: rgb(169, 169, 169);
+  font-size: 10px;
+}
+
+footer {
+  background-color: rgb(0, 18, 83);
+  color: white;
+  padding: 30px 0;
+  height: 400px;
+  width: 100%;
+}
+.inner-container {
+  width: 1040px;
+  margin: 0 auto;
+  position: relative;
+}
+#box {
+  border-bottom: 0.5px solid rgb(33, 53, 109);
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  font-size: 12px;
+}
+.iibox {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 400px;
+  width: 200px;
+  height: 25px;
+}
+.mmr {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  text-align: center;
+}
