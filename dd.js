@@ -18,18 +18,6 @@ for (var index in data){
     document.getElementById("rrbox").appendChild(paragraph);
     paragraph.classList.add(data[index]["className"])
 }
-
-
-
-
-
-
-
-
-
-
-
-
     document.getElementById("btn").addEventListener("click", function () {
         document.getElementById("head").style.backgroundColor =
           "rgb(255, 250, 206)";
@@ -60,5 +48,27 @@ for (var index in data){
         document.getElementById("footer").style.backgroundColor =
           "rgb(58, 38, 3)";
       });
-
+      document.querySelector('.bt1').addEventListener('click', function(){
+        contain.style.transform = 'translate(0px)'
+      });      
+document.querySelector('.bt2').addEventListener('click', function(){
+  contain.style.transform = 'translate(-1040px)'
+});
+document.querySelector('.bt3').addEventListener('click', function(){
+  contain.style.transform = 'translate(-2080px)'
+});
+var posi = 0
+var contain = document.querySelector('#container')
+document.querySelector('.btle').addEventListener('click', function(){{
+  if(-2080 < posi)
+  posi = posi - 1040
+    contain.style.transform = "translate(" + posi + "px)"
+  }
+});
+document.querySelector('.btri').addEventListener('click', function(){{
+  if(0 > posi)
+  posi = posi + 1040
+    contain.style.transform = "translate(" + posi + "px)"
+  }
+});
 }
